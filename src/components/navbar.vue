@@ -33,7 +33,7 @@ export default {
 <style scoped>
 a {
   text-decoration: none;
-  color: orange;
+  color: white;
 }
 
 ul {
@@ -68,8 +68,8 @@ ul {
 
 .nav-btn {
   margin: 5vh;
-  border: solid 1px orange;
-  padding: 5px 20px;
+  border: solid 2px orange;
+  padding: 10px 20px;
   border-radius: 13px;
   transition: 0.5s;
   font-size: 20px;
