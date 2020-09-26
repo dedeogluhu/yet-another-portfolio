@@ -2,18 +2,21 @@
   <div id="app">
     <navbar />
     <contactBtns />
+    <main-section />
   </div>
 </template>
 
 <script>
 import navbar from "./components/navbar.vue";
 import contactBtns from "./components/contact-btns-fixed.vue";
+import mainSection from "./components/main-section.vue";
 
 export default {
   name: "App",
   components: {
     navbar,
     contactBtns,
+    mainSection,
   },
 };
 </script>
