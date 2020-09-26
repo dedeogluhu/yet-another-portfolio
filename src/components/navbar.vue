@@ -40,12 +40,18 @@ ul {
   list-style: none;
 }
 
+#navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
 #logo {
   color: white;
   margin: auto 0;
   font-size: 25px;
   flex: 2;
-  cursor: grab;
 }
 
 #nav {
@@ -71,10 +77,11 @@ ul {
 
 .nav-btn:hover {
   background-color: orange;
-  color: #3a6073;
+  color: #000;
 }
 
 .text-orange {
   color: orange;
+  cursor: grab;
 }
 </style>
