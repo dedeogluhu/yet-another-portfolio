@@ -50,7 +50,7 @@ ul {
 #logo {
   color: white;
   margin: auto 0;
-  font-size: 25px;
+  font-size: 28px;
   flex: 2;
 }
 
@@ -71,7 +71,7 @@ ul {
   border: solid 2px orange;
   padding: 8px 15px;
   border-radius: 13px;
-  transition: 0.5s;
+  transition: 0.3s;
   font-size: 20px;
 }
 
@@ -80,7 +80,7 @@ ul {
   border: solid 2px orange;
   padding: 10px 20px;
   border-radius: 13px;
-  transition: 0.5s;
+  transition: 0.3s;
   font-size: 20px;
   background: orange;
   color: #000;

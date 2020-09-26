@@ -1,16 +1,19 @@
 <template>
-  <navbar />
+  <div id="app">
+    <navbar />
+    <contactBtns />
+  </div>
 </template>
 
 <script>
 import navbar from "./components/navbar.vue";
-//import contactBtns from "./components/contact-btns-fixed.vue";
+import contactBtns from "./components/contact-btns-fixed.vue";
 
 export default {
   name: "App",
   components: {
     navbar,
-    //contactBtns,
+    contactBtns,
   },
 };
 </script>
