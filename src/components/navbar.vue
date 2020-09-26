@@ -15,7 +15,7 @@
             <a class="nav-btn" href="#projects">Projects</a>
           </li>
           <li>
-            <a class="nav-btn" href="#contact">Contact</a>
+            <a class="nav-btn-contact" href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
@@ -69,10 +69,26 @@ ul {
 .nav-btn {
   margin: 5vh;
   border: solid 2px orange;
+  padding: 8px 15px;
+  border-radius: 13px;
+  transition: 0.5s;
+  font-size: 20px;
+}
+
+.nav-btn-contact {
+  margin: 5vh;
+  border: solid 2px orange;
   padding: 10px 20px;
   border-radius: 13px;
   transition: 0.5s;
   font-size: 20px;
+  background: orange;
+  color: #000;
+}
+
+.nav-btn-contact:hover {
+  background: none;
+  color: white;
 }
 
 .nav-btn:hover {
