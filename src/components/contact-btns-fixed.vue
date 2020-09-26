@@ -12,7 +12,7 @@
 </template>
 
 <script>
-export default { name: "App" };
+export default { name: "contact-btns" };
 </script>
 
 <style scoped>
@@ -22,15 +22,18 @@ export default { name: "App" };
   top: 80vh;
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
 }
 
 .logo {
   margin: 0;
   transition: 0.5s;
+  background: white;
+  border: none;
 }
 
 .logo:hover {
-  background: rgba(0, 0, 0, 0.15);
+  background: #e0e0e0c0;
 }
 
 #github {
