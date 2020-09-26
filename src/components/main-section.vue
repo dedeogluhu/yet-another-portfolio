@@ -10,7 +10,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 a {
   text-decoration: none;
   cursor: grab;
@@ -25,6 +25,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 #main-header {
