@@ -4,11 +4,13 @@
 
 <script>
 import navbar from "./components/navbar.vue";
+//import contactBtns from "./components/contact-btns-fixed.vue";
 
 export default {
   name: "App",
   components: {
     navbar,
+    //contactBtns,
   },
 };
 </script>
