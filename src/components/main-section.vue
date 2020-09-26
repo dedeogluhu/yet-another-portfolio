@@ -1,6 +1,14 @@
 <template>
   <div id="main">
-    <h1 id="main-header">Hi There<a href="#">👋</a></h1>
+    <h1 id="main-header">Hi There<a href="#" id="hello">👋</a></h1>
+
+    <h3 class="main-para">
+      I'm a fullstack web developer who loves to make life easier
+    </h3>
+
+    <h4 class="main-para">
+      Check my <a href="#" class="text-orange"> resume</a>
+    </h4>
   </div>
 </template>
 
@@ -13,7 +21,6 @@ export default {
 <style scoped>
 a {
   text-decoration: none;
-  cursor: grab;
 }
 ul {
   list-style: none;
@@ -30,5 +37,18 @@ ul {
 
 #main-header {
   color: white;
+}
+
+#hello {
+  cursor: grab;
+}
+
+.main-para {
+  margin-top: 20px;
+  color: white;
+}
+
+.text-orange {
+  color: orange;
 }
 </style>
