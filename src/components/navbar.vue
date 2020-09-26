@@ -1,25 +1,23 @@
 <template>
   <div id="navbar">
-    <header id="header">
-      <nav id="nav">
-        <h3 id="logo">
-          <span class="text-orange">D</span>edeoglu<span class="text-orange"
-            >h</span
-          >u
-        </h3>
-        <ul id="links">
-          <li>
-            <a class="nav-btn" href="#home">Home</a>
-          </li>
-          <li>
-            <a class="nav-btn" href="#projects">Projects</a>
-          </li>
-          <li>
-            <a class="nav-btn-contact" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <nav id="nav">
+      <h3 id="logo">
+        <span class="text-orange">D</span>edeoglu<span class="text-orange"
+          >h</span
+        >u
+      </h3>
+      <ul id="links">
+        <li>
+          <a class="nav-btn" href="#home">Home</a>
+        </li>
+        <li>
+          <a class="nav-btn" href="#projects">Projects</a>
+        </li>
+        <li>
+          <a class="nav-btn-contact" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </template>
 

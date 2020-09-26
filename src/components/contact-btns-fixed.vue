@@ -1,13 +1,11 @@
 <template>
-  <div id="app">
-    <div id="links">
-      <a href="https://github.com/dedeogluhu"
-        ><img src="../assets/logo-github.png" id="github" class="logo"
-      /></a>
-      <a href="https://linkedin.com/in/dedeogluhu"
-        ><img src="../assets/logo-linkedin.png" id="linkedin" class="logo"
-      /></a>
-    </div>
+  <div id="links">
+    <a href="https://github.com/dedeogluhu"
+      ><img src="../assets/logo-github.png" id="github" class="logo"
+    /></a>
+    <a href="https://linkedin.com/in/dedeogluhu"
+      ><img src="../assets/logo-linkedin.png" id="linkedin" class="logo"
+    /></a>
   </div>
 </template>
 
