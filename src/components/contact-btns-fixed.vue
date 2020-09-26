@@ -27,7 +27,6 @@ export default { name: "App" };
 .logo {
   margin: 0;
   transition: 0.5s;
-  border-radius: 10px;
 }
 
 .logo:hover {
@@ -36,8 +35,10 @@ export default { name: "App" };
 
 #github {
   width: 50px;
+  border-radius: 50%;
 }
 #linkedin {
   width: 50px;
+  border-radius: 5px;
 }
 </style>
