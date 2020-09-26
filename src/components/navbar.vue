@@ -99,6 +99,6 @@ ul {
 
 .text-orange {
   color: orange;
-  cursor: grab;
+  cursor: crosshair;
 }
 </style>

@@ -28,7 +28,7 @@ export default { name: "contact-btns" };
 .logo {
   margin: 0;
   transition: 0.5s;
-  background: white;
+  background: wheat;
   border: none;
 }
 
