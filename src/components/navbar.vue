@@ -45,6 +45,7 @@ ul {
   top: 0;
   right: 0;
   left: 0;
+  border-bottom: 1px solid white;
 }
 
 #logo {
