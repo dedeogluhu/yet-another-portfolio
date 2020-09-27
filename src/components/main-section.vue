@@ -1,5 +1,5 @@
 <template>
-  <div id="main">
+  <section id="home">
     <h1 id="main-header">Hi There<a href="#" id="hello">👋</a></h1>
 
     <h3 class="main-para">
@@ -9,7 +9,7 @@
     <h4 class="main-para">
       Check my <a href="#" class="text-orange"> resume</a>
     </h4>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -26,7 +26,7 @@ ul {
   list-style: none;
   color: white;
 }
-#main {
+#home {
   height: 100vh;
   background: linear-gradient(-90deg, #16222a 0%, #3a6073 100%);
   display: flex;

@@ -3,6 +3,8 @@
     <navbar />
     <contactBtns />
     <main-section />
+    <projectsSection />
+    <contactSection />
   </div>
 </template>
 
@@ -10,6 +12,8 @@
 import navbar from "./components/navbar.vue";
 import contactBtns from "./components/contact-btns-fixed.vue";
 import mainSection from "./components/main-section.vue";
+import projectsSection from "./components/projects-section.vue";
+import contactSection from "./components/contact-section.vue";
 
 export default {
   name: "App",
@@ -17,6 +21,8 @@ export default {
     navbar,
     contactBtns,
     mainSection,
+    projectsSection,
+    contactSection,
   },
 };
 </script>
@@ -25,6 +31,10 @@ export default {
 * {
   margin: 0;
   padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 #app {
