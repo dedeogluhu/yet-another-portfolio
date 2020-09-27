@@ -8,8 +8,10 @@
         >here</a
       >
     </h2>
-
-    <h2 id="social">or here <span id="arrow" class="text-orange">=></span></h2>
+    <div id="social">
+      <h2 id="social-text">or here</h2>
+      <h3 id="arrow" class="text-orange">=></h3>
+    </div>
   </section>
 </template>
 
@@ -18,6 +20,8 @@ export default {};
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
 a {
   text-decoration: none;
 }
@@ -37,13 +41,17 @@ a {
 
 #social {
   position: absolute;
-  top: 283vh;
+  top: 280vh;
   right: 5vw;
-  font-size: 50px;
+}
+
+#social-text {
+  font-size: 40px;
 }
 
 #arrow {
   font-size: 50px;
+  font-family: "Press Start 2P", cursive;
 }
 
 .text-orange {
