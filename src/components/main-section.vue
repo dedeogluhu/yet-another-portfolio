@@ -7,7 +7,7 @@
     </h3>
 
     <h4 class="main-para">
-      Check my <a href="#" class="text-orange"> resume</a>
+      Check my <a href="#" class="text-orange"> resume</a>(to be added)
     </h4>
   </section>
 </template>
