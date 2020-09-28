@@ -28,11 +28,11 @@ export default { name: "contact-btns" };
   transition: 0.5s;
   background: white;
   border: none;
-  border: 5px solid black;
+  border: 5px solid white;
 }
 
 .logo:hover {
-  background: orange;
+  border: 5px solid orange;
 }
 
 #github {
