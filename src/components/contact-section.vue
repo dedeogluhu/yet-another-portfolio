@@ -43,10 +43,28 @@ a {
   position: absolute;
   top: 280vh;
   right: 5vw;
+
+  animation-name: arrow-anim;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 #social-text {
   font-size: 40px;
+}
+
+@keyframes arrow-anim {
+  0% {
+    transform: translateX(0%);
+  }
+
+  50% {
+    transform: translateX(10%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 #arrow {
