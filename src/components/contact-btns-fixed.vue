@@ -26,12 +26,13 @@ export default { name: "contact-btns" };
 .logo {
   margin: 0;
   transition: 0.5s;
-  background: wheat;
+  background: white;
   border: none;
+  border: 5px solid black;
 }
 
 .logo:hover {
-  background: #e0e0e0c0;
+  background: orange;
 }
 
 #github {

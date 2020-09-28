@@ -5,6 +5,7 @@
     <main-section />
     <projectsSection />
     <contactSection />
+    <footerSection />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import contactBtns from "./components/contact-btns-fixed.vue";
 import mainSection from "./components/main-section.vue";
 import projectsSection from "./components/projects-section.vue";
 import contactSection from "./components/contact-section.vue";
+import footerSection from "./components/footer-section.vue";
 
 export default {
   name: "App",
@@ -23,6 +25,7 @@ export default {
     mainSection,
     projectsSection,
     contactSection,
+    footerSection,
   },
 };
 </script>
