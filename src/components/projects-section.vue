@@ -3,138 +3,14 @@
     <h1>Projects</h1>
 
     <div class="cards">
-      <div class="card">
-        <h2>Project 1</h2>
+      <div class="card" v-for="project in projects" :key="project">
+        <h2>{{ project.name }}</h2>
         <p class="card-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga,
-          praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Vitae, illum. Corrupti vel est assumenda. Omnis reiciendis id
-          similique architecto pariatur, labore optio odit dolorum obcaecati
-          nobis temporibus iusto natus rem! Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Ratione, voluptas.
+          {{ project.text }}
         </p>
         <div class="card-footer">
-          <a class="card-link" href="https://github.com/dedeogluhu">Source</a>
-          <a class="card-link-gray" href="https://github.com/dedeogluhu"
-            >Live Demo</a
-          >
-        </div>
-      </div>
-      <div class="card">
-        <h2>Project 2</h2>
-        <p class="card-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe cum,
-          tempore asperiores libero nam cumque hic voluptates pariatur quod,
-          laudantium ea nesciunt eius? Molestias cumque velit alias omnis porro
-          aut odio magnam assumenda, distinctio harum veniam magni repellendus!
-          Quibusdam dolores voluptatum perspiciatis magnam impedit ratione,
-          voluptas recusandae. Laborum, dolor! Iure! Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Fuga, praesentium. Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Praesentium sapiente officiis eos
-          aperiam ducimus deleniti qui consequuntur porro nisi numquam, vel esse
-          quas animi distinctio error modi beatae? Accusamus aliquam assumenda
-          reiciendis veritatis consequatur in dolor ad debitis magnam quasi
-          exercitationem nam tempora temporibus dolorum, ipsa aperiam
-          reprehenderit pariatur praesentium!
-        </p>
-        <div class="card-footer">
-          <a class="card-link" href="https://github.com/dedeogluhu">Source</a>
-          <a class="card-link-gray" href="https://github.com/dedeogluhu"
-            >Live Demo</a
-          >
-        </div>
-      </div>
-      <div class="card">
-        <h2>Project Title</h2>
-        <p class="card-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga,
-          praesentium.
-        </p>
-        <div class="card-footer">
-          <a class="card-link" href="https://github.com/dedeogluhu">Source</a>
-          <a class="card-link-gray" href="https://github.com/dedeogluhu"
-            >Live Demo</a
-          >
-        </div>
-      </div>
-      <div class="card">
-        <h2>Project Title</h2>
-        <p class="card-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga,
-          praesentium.
-        </p>
-        <div class="card-footer">
-          <a class="card-link" href="https://github.com/dedeogluhu">Source</a>
-          <a class="card-link-gray" href="https://github.com/dedeogluhu"
-            >Live Demo</a
-          >
-        </div>
-      </div>
-      <div class="card">
-        <h2>Project Title</h2>
-        <p class="card-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga,
-          praesentium.
-        </p>
-        <div class="card-footer">
-          <a class="card-link" href="https://github.com/dedeogluhu">Source</a>
-          <a class="card-link-gray" href="https://github.com/dedeogluhu"
-            >Live Demo</a
-          >
-        </div>
-      </div>
-
-      <!-- Fazlalık -->
-
-      <div class="card">
-        <h2>Project Title</h2>
-        <p class="card-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga,
-          praesentium.
-        </p>
-        <div class="card-footer">
-          <a class="card-link" href="https://github.com/dedeogluhu">Source</a>
-          <a class="card-link-gray" href="https://github.com/dedeogluhu"
-            >Live Demo</a
-          >
-        </div>
-      </div>
-      <div class="card">
-        <h2>Project Title</h2>
-        <p class="card-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga,
-          praesentium.
-        </p>
-        <div class="card-footer">
-          <a class="card-link" href="https://github.com/dedeogluhu">Source</a>
-          <a class="card-link-gray" href="https://github.com/dedeogluhu"
-            >Live Demo</a
-          >
-        </div>
-      </div>
-      <div class="card">
-        <h2>Project Title</h2>
-        <p class="card-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga,
-          praesentium.
-        </p>
-        <div class="card-footer">
-          <a class="card-link" href="https://github.com/dedeogluhu">Source</a>
-          <a class="card-link-gray" href="https://github.com/dedeogluhu"
-            >Live Demo</a
-          >
-        </div>
-      </div>
-      <div class="card">
-        <h2>Project Title</h2>
-        <p class="card-text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga,
-        </p>
-        <div class="card-footer">
-          <a class="card-link" href="https://github.com/dedeogluhu">Source</a>
-          <a class="card-link-gray" href="https://github.com/dedeogluhu"
-            >Live Demo</a
-          >
+          <a class="card-link" :href="project.source">Source</a>
+          <a class="card-link-gray" :href="project.live">Live Demo</a>
         </div>
       </div>
     </div>
@@ -142,7 +18,40 @@
 </template>
 
 <script>
-export default { name: "projects" };
+export default {
+  name: "projects",
+
+  data: () => {
+    return {
+      projects: [
+        {
+          name: "Dedeogluhu",
+          text: "Lorem Ipsum Dolor Sit Amet.",
+          source: "https://github.com/dedeogluhu",
+          live: "https://github.com/dedeogluhu",
+        },
+        {
+          name: "Project2",
+          text: "Lorem Ipsum Dolor Sit Amet.",
+          source: "https://github.com/dedeogluhu",
+          live: "https://github.com/dedeogluhu",
+        },
+        {
+          name: "Project3",
+          text: "Lorem Ipsum Dolor Sit Amet.",
+          source: "https://github.com/dedeogluhu",
+          live: "https://github.com/dedeogluhu",
+        },
+        {
+          name: "New Project",
+          text: "Lorem Ipsum Dolor Sit Amet.",
+          source: "https://github.com/dedeogluhu",
+          live: "https://github.com/dedeogluhu",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style>
@@ -173,6 +82,7 @@ body {
   border: 2px solid orange;
   border-radius: 10px;
   color: black;
+  margin-top: 50px;
 }
 
 .card {

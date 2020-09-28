@@ -40,4 +40,8 @@ html {
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
+
+section {
+  border-bottom: 1px solid white;
+}
 </style>
