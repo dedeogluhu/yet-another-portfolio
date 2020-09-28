@@ -27,8 +27,8 @@ export default {
         {
           name: "Dedeogluhu",
           text: "Lorem Ipsum Dolor Sit Amet.",
-          source: "https://github.com/dedeogluhu",
-          live: "https://github.com/dedeogluhu",
+          source: "https://github.com/dedeogluhu/dedeogluhu.github.io",
+          live: "https://dedeogluhu.github.io",
         },
         {
           name: "Project2",
