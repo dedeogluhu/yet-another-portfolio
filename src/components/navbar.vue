@@ -17,7 +17,7 @@
         </li>
 
         <li>
-          <a class="nav-btn" href="#contact">Contact</a>
+          <a class="nav-btn" href="#contact" v-on:click="animate()">Contact</a>
         </li>
       </ul>
     </nav>
@@ -28,6 +28,12 @@
 export default {
   name: "navbar",
   props: {},
+  methods: {
+    animate() {
+      let social = document.getElementById("social");
+      social.style.animationPlayState = "running";
+    },
+  },
 };
 </script>
 

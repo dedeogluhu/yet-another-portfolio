@@ -43,6 +43,11 @@ a {
   position: absolute;
   top: 280vh;
   right: 5vw;
+
+  animation-play-state: paused;
+
+  animation-name: arrow-appear;
+  animation-duration: 1s;
 }
 
 #social-text {
@@ -60,6 +65,20 @@ a {
 
   100% {
     transform: translateX(0%);
+  }
+}
+
+@keyframes arrow-appear {
+  0% {
+    transform: scale(0);
+  }
+
+  70% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
   }
 }
 
