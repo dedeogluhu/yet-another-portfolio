@@ -43,10 +43,6 @@ a {
   position: absolute;
   top: 280vh;
   right: 5vw;
-
-  animation-name: arrow-anim;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
 }
 
 #social-text {
@@ -70,6 +66,10 @@ a {
 #arrow {
   font-size: 50px;
   font-family: "Press Start 2P", cursive;
+
+  animation-name: arrow-anim;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 .text-orange {
