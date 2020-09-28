@@ -1,20 +1,23 @@
 <template>
   <div id="navbar">
     <nav id="nav">
-      <h3 id="logo">
-        <span class="text-orange">D</span>edeoglu<span class="text-orange"
-          >h</span
-        >u
-      </h3>
       <ul id="links">
-        <li>
-          <a class="nav-btn" href="#home">Home</a>
-        </li>
         <li>
           <a class="nav-btn" href="#projects">Projects</a>
         </li>
+
         <li>
-          <a class="nav-btn-contact" href="#contact">Contact</a>
+          <h3 id="logo">
+            <a href="#home">
+              <span class="text-orange">D</span>edeoglu<span class="text-orange"
+                >h</span
+              >u
+            </a>
+          </h3>
+        </li>
+
+        <li>
+          <a class="nav-btn" href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
@@ -54,15 +57,13 @@ ul {
 }
 
 #nav {
-  display: flex;
-  justify-content: space-around;
   padding: 25px;
   background: linear-gradient(-90deg, #16222a 0%, #3a6073 100%);
 }
 
 #links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .nav-btn {
@@ -97,6 +98,5 @@ ul {
 
 .text-orange {
   color: orange;
-  cursor: crosshair;
 }
 </style>
