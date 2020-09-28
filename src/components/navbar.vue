@@ -2,11 +2,11 @@
   <div id="navbar">
     <nav id="nav">
       <ul id="links">
-        <li>
+        <li class="order-2">
           <a class="nav-btn" href="#projects">Projects</a>
         </li>
 
-        <li>
+        <li class="order-1">
           <h3 id="logo">
             <a href="#home">
               <span class="text-orange">D</span>edeoglu<span class="text-orange"
@@ -16,7 +16,7 @@
           </h3>
         </li>
 
-        <li>
+        <li class="order-3">
           <a class="nav-btn" href="#contact" v-on:click="animate()">Contact</a>
         </li>
       </ul>
@@ -105,5 +105,11 @@ ul {
 
 .text-orange {
   color: orange;
+}
+
+@media (max-width: 460px) {
+  #navbar {
+    display: none;
+  }
 }
 </style>
