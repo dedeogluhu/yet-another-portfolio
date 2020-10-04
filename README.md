@@ -1,4 +1,6 @@
-# Frontend Codes of My Portfolio Website
+# My old portfolio
+
+## I designed this portfolio, but design was bad an I made a new one [here](https://github.com/dedeogluhu/new-portfolio/tree/master)
 
 ## Project setup
 ```
